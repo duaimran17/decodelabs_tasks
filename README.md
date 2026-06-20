@@ -6,6 +6,14 @@ to actual machine learning and similarity based recommendations. I've kept
 every project in its own folder with its own README explaining what it does
 and why I built it that way.
 
+## The lineup
+
+| | Task | What it actually does | Core idea |
+|---|---|---|---|
+| 🤖 | **Rule-Based Chatbot** | Replies to greetings, time, name, etc. in a loop | Dictionary lookup beats a wall of `elif`s |
+| 🌸 | **Data Classification** | Tells apart 3 Iris species from petal/sepal measurements | KNN + train/test split + actually checking F1, not just accuracy |
+| 🧭 | **Recommendation Logic** | Matches your skills to the closest-fit job role | TF-IDF weighting + cosine similarity, no neural net required |
+
 ## Task 1: Rule-Based AI Chatbot
 
 The first task was about control flow, not AI in the "smart" sense. It's a
